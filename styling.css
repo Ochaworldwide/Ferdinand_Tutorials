@@ -1,0 +1,278 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    background-image: linear-gradient(90deg,#0A0D28 0%, #1D1D1F 100%);
+}
+.top_header{
+    width:100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    top: 1px;
+    position: sticky;
+    /* background-color: rgb(49, 50, 51); */
+    z-index: 5;
+}
+.logo{
+    
+    width: 12%;
+    height: 80%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("assets/images/logo.png");
+    box-sizing: border-box;
+}
+
+.big_header{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("assets/images/header4.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.418);
+    position: absolute;
+}
+.big_header>h2{
+    z-index: 1;
+    margin: 0px;
+    font-size: 300%;
+    color: #ffff;
+}
+.founder_profile{
+    width: 100%;
+    height: 500px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.founder_pic{
+    width: 30%;
+    height: 400px;
+    background-image: url("assets/images/founder.jpeg");
+    background-size:320px 440px;
+    background-position: center;
+    border-radius:200px;
+    border: 10px solid rgb(59, 59, 59);
+
+}
+.founder_pic:hover{
+    transition: 1s;
+    background-size:330px 450px;
+}
+
+.founder_about p{
+    text-align: left;
+    font-size: 150%;
+    padding-left: 6%;
+    margin: 0px;
+}
+.founder_about h6{
+    text-align: left;
+    font-size: 100%;
+    padding-left: 7%;
+    margin: 0px;
+}
+.founder_about{
+    width: 40%;
+    height: 200px;
+    margin-left: -2%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.185);
+    justify-content: space-evenly;
+}
+.social_accounts{
+    
+    width: 80%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+        
+
+}
+.social_link{
+    color: #ffff;
+    width: 12%;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.social_link:hover{
+    transition: 1s;
+    transition-timing-function: ease;
+    background-color: #37b3ed;
+}
+
+/* ----About Section---- */
+
+.container{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    box-sizing: border-box;
+    /* background-image: url("assets/images/backgrounds/bg-79.jpg"); */
+    background-size: cover;
+}
+.about{
+    width: 40%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 5px white;
+}
+
+.about >h2{
+    font-size: 250%;
+    color: #37b3ed;
+    text-align: center;
+}
+.about >h2::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to right,#149ddd,white,#149ddd);
+    bottom: 0;
+    left: 0;
+}
+.vision{
+    width: 40%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 5px white;
+}
+.vision >h2{
+    font-size: 250%;
+    color: #37b3ed;
+    text-align: center;
+}
+.vision >h2::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to right,#149ddd,white,#149ddd);
+    bottom: 0;
+    left: 0;
+}
+
+
+/* Courses we offer */
+
+.offer_container{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.courses{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.course{
+    width: 30%;
+    height: 100%;
+    border: 2px solid white;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+}
+.course_details{
+    width: 95%;
+    height: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px solid white;
+}
+
+.course_pic{
+    width: 40%;
+    height: 80%;
+    background-image: url("assets/images/fedinand/ani2.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.course_pic2{
+    width: 40%;
+    height: 80%;
+    background-image: url("assets/images/fedinand/bio1.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.course_pic3{
+    width: 40%;
+    height: 80%;
+    background-image: url("assets/images/fedinand/biochem4.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.course_pic4{
+    width: 40%;
+    height: 80%;
+    background-image: url("assets/images/fedinand/chem1.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.course_pic5{
+    width: 40%;
+    height: 80%;
+    background-image: url("assets/images/fedinand/micro1.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.course_pic6{
+    width: 40%;
+    height: 80%;
+    background-image: url("assets/images/fedinand/phy1.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.course_title{
+    width: 50%;
+    height: 100%;
+}
+.watch{
+    width: 40%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #37b3ed;
+    font-weight: bold;
+    border-radius: 10px;
+}
