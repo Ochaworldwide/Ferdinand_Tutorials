@@ -1,4 +1,5 @@
 body{
+    color: #A8A9B4;
     padding: 0px;
     margin: 0px;
     font-family: 'Open Sans', sans-serif;
@@ -46,9 +47,12 @@ body{
     z-index: 1;
     margin: 0px;
     font-size: 300%;
-    color: #ffff;
+    color: #A8A9B4;
 }
-.founder_profile{
+
+
+
+/* .founder_profile{
     width: 100%;
     height: 500px;
     box-sizing: border-box;
@@ -105,7 +109,7 @@ body{
 
 }
 .social_link{
-    color: #ffff;
+    color: #A8A9B4;
     width: 12%;
     height: 45px;
     display: flex;
@@ -120,49 +124,91 @@ body{
     transition: 1s;
     transition-timing-function: ease;
     background-color: #37b3ed;
-}
+} */
+
+
+
+
+
 
 /* ----About Section---- */
+.about_container{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about{
+    width: 50%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.mission >h2::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(to right,#149ddd,white,#149ddd);
+    bottom: 0;
+    left: 0;
+}
+
+
+
 
 .container{
     width: 100%;
-    height: 500px;
+    height: 700px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     box-sizing: border-box;
+    text-align: center;
     /* background-image: url("assets/images/backgrounds/bg-79.jpg"); */
     background-size: cover;
 }
-.about{
+.mission{
     width: 40%;
-    height: 400px;
+    height: 500px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    box-shadow: 0px 0px 5px white;
+    align-items: center;
+    box-shadow: 0px 0px 5px #A8A9B4;
 }
 
-.about >h2{
+.mission >h2{
     font-size: 250%;
     color: #37b3ed;
     text-align: center;
 }
-.about >h2::after{
+.mission >h2::after{
     content: "";
     display: block;
     width: 100%;
-    height: 3px;
+    height: 1px;
     background: linear-gradient(to right,#149ddd,white,#149ddd);
     bottom: 0;
     left: 0;
 }
+.fa-bullseye{
+    font-size: 1000%;
+    height: 200px;
+}
 .vision{
     width: 40%;
-    height: 400px;
+    height: 500px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    box-shadow: 0px 0px 5px white;
+    box-shadow: 0px 0px 5px #A8A9B4;
 }
 .vision >h2{
     font-size: 250%;
@@ -173,10 +219,14 @@ body{
     content: "";
     display: block;
     width: 100%;
-    height: 3px;
-    background: linear-gradient(to right,#149ddd,white,#149ddd);
+    height: 1px;
+    background: linear-gradient(to right,#149ddd,#A8A9B4,#149ddd);
     bottom: 0;
     left: 0;
+}
+.fa-lightbulb{
+    font-size: 1000%;
+    height: 200px;
 }
 
 
@@ -188,7 +238,20 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 
+}
+.offer_container h2{
+    font-size: 150%;
+}
+.offer_container >h2::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(to right,#149ddd,#A8A9B4,#149ddd);
+    bottom: 0;
+    left: 0;
 }
 .courses{
     width: 100%;
@@ -201,7 +264,7 @@ body{
 .course{
     width: 30%;
     height: 100%;
-    border: 2px solid white;
+    box-shadow: 0px 0px 5px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -216,7 +279,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: 2px solid white;
+    
 }
 
 .course_pic{
@@ -225,6 +288,7 @@ body{
     background-image: url("assets/images/fedinand/ani2.jpeg");
     background-size: cover;
     background-position: center;
+    border-radius: 5px;
 }
 .course_pic2{
     width: 40%;
@@ -232,6 +296,7 @@ body{
     background-image: url("assets/images/fedinand/bio1.jpeg");
     background-size: cover;
     background-position: center;
+    border-radius: 5px;
 }
 .course_pic3{
     width: 40%;
@@ -239,6 +304,7 @@ body{
     background-image: url("assets/images/fedinand/biochem4.jpeg");
     background-size: cover;
     background-position: center;
+    border-radius: 5px;
 }
 .course_pic4{
     width: 40%;
@@ -246,6 +312,7 @@ body{
     background-image: url("assets/images/fedinand/chem1.jpeg");
     background-size: cover;
     background-position: center;
+    border-radius: 5px;
 }
 .course_pic5{
     width: 40%;
@@ -253,6 +320,7 @@ body{
     background-image: url("assets/images/fedinand/micro1.jpeg");
     background-size: cover;
     background-position: center;
+    border-radius: 5px;
 }
 .course_pic6{
     width: 40%;
@@ -260,6 +328,7 @@ body{
     background-image: url("assets/images/fedinand/phy1.jpeg");
     background-size: cover;
     background-position: center;
+    border-radius: 5px;
 }
 .course_title{
     width: 50%;
@@ -272,7 +341,75 @@ body{
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    background-color: #37b3ed;
+    background-color: #1D1D1F;
     font-weight: bold;
+    border-radius: 10px;
+    color: #A8A9B4;
+}
+.watch:hover{
+    color: #1D1D1F;
+    background-color: #ca7e1b;
+    transition: 1s;
+}
+
+
+/* Team Section */
+
+.team_container{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+.team_container h2{
+    font-size: 150%;
+}
+.team_container >h2::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(to right,#149ddd,#A8A9B4,#149ddd);
+    bottom: 0;
+    left: 0;
+}
+.team_mates_details{
+    width: 80%;
+    height:400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(0, 0, 0,0.2);
+
+}
+.team_mate{
+    width: 30%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(0, 0, 0,0.09);
+}
+/* .user_pic{
+    width: 20%;
+    height: 300px;
+} */
+.fa-user{
+    font-size: 1500%;
+}
+.name{
+    width: 70%;
+    height: 50px;
+    background-color: #a8a9b452;
+    border-radius: 10px;
+}
+.dept{
+    width: 70%;
+    height: 50px;
+    background-color: #a8a9b452;
     border-radius: 10px;
 }
