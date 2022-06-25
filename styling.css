@@ -12,7 +12,6 @@ h3:after{
     width: 100%;
     height: 1px;
     background-color: #C8E980;
-    /* background-color: rgba(93, 109, 2, 0.514); */
     bottom: 0;
     margin-top: 5px;
     left: 0;
@@ -23,10 +22,11 @@ h3:after{
     height: 60px;
     display: flex;
     align-items: center;
-    top: 1px;
+    top: 0px;
     position: sticky;
-    /* background-color: rgb(49, 50, 51); */
-    z-index: 5;
+    z-index: 1;
+    
+    
 }
 .logo{
     
@@ -37,6 +37,9 @@ h3:after{
     background-image: url("assets/images/logo.png");
     box-sizing: border-box;
 }
+
+
+
 /* Navigation Bar Section */
 
 .nav_bar{
@@ -51,7 +54,8 @@ h3:after{
     position: sticky;
     top: 0px;
     font-weight: bold;
-    z-index: 4;
+    z-index: 1;
+   
     
 }
 .nav_bar:hover{
@@ -97,15 +101,18 @@ h2{
     align-items: center;
     justify-content: center;
     background-attachment: fixed;
+    z-index: -1;
 }
 .overlay{
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.418);
-    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 .big_header>h1{
-    z-index: 1;
     margin: 0px;
     font-size: 50px;
     color: #A8A9B4;
@@ -366,9 +373,7 @@ h2{
     scroll-snap-type: x mandatory;
   }
   
-  .course_slide:nth-of-type(even) {
-    /* background-color: rgb(250, 246, 212); */
-  }
+  
   
   .course_slide {
     display: flex;
@@ -756,9 +761,7 @@ h2{
     scroll-snap-type: x mandatory;
   }
   
-  .slide:nth-of-type(even) {
-    /* background-color: rgb(250, 246, 212); */
-  }
+ 
   
   .slide {
     display: flex;
