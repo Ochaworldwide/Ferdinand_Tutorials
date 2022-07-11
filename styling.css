@@ -1036,7 +1036,7 @@ p{
 
 @media only screen and (max-width:640px) and (min-width:468px) {
     #about_container{
-        height: 500px;
+        height: 550px;
         justify-content: space-evenly;
     }
     #service_big_box{
