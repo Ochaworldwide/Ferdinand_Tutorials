@@ -718,7 +718,7 @@ h2{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 .events{
     width: 75%;
@@ -1036,7 +1036,8 @@ p{
 
 @media only screen and (max-width:640px) and (min-width:468px) {
     #about_container{
-        height: 550px;
+        margin-top: 50px;
+        height: 500px;
         justify-content: space-evenly;
     }
     #service_big_box{
@@ -1061,7 +1062,8 @@ p{
         font-size: 10px;
     }
     .mission_container{
-        height: 400px;
+        margin-top: 70px;
+        height: 300px;
     }
     .mission{
         height: 250px;
@@ -1172,19 +1174,19 @@ p{
 
 
     .team_mate{
-        width: 28%;
+        width: 30%;
         height: 170px;
     }
     .team_pic{
-        width: 80%;
+        width: 85%;
         height: 100px;
     }
     .team_info h5{
         height: 5px;
-        font-size: 9px;
+        font-size: 10px;
     }
     .team_info p{
-        font-size: 9px;
+        font-size: 10px;
     }
     a.slide__prev,
     .slider::before {
