@@ -858,10 +858,11 @@ p{
         margin-top: 20px;
     }
     p{
-        font-size: 7px;
+        font-size: 9px;
     }
     .mission_container{
-        height: 250px;
+        height: 200px;
+        transform: translateY(30px);
     }
     .mission{
         height: 170px;
@@ -877,7 +878,7 @@ p{
     /* Course Section */
 
     .course_slider-container{
-        height: 400px;
+        height: 300px;
     }
     .course_slider{
         height: 250px;
@@ -901,10 +902,10 @@ p{
         border-radius: 9px;
     }
     .test_course_title h4{
-        font-size: 5px;
+        font-size: 6px;
     }
     .test_course_title p{
-        font-size: 6px;
+        font-size: 7px;
     }
     .test_watch{
         height: 10px;
@@ -962,7 +963,7 @@ p{
 
 /* Team Section */
     .team_container{
-        height:300px;
+        height:230px;
         
     }
    
@@ -985,10 +986,10 @@ p{
     }
     .team_info h5{
         height: 5px;
-        font-size: 7px;
+        font-size: 8px;
     }
     .team_info p{
-        font-size: 7px;
+        font-size: 8px;
     }
     a.slide__prev,
     .slider::before {
@@ -1056,10 +1057,10 @@ p{
     }
     .overlay p{
         width: 80%;
-        font-size: 10px;
+        font-size: 12px;
     }
     p{
-        font-size: 10px;
+        font-size: 12px;
     }
     .mission_container{
         margin-top: 70px;
@@ -1102,15 +1103,15 @@ p{
         border-radius: 9px;
     }
     .test_course_title h4{
-        font-size: 7px;
+        font-size: 8px;
     }
     .test_course_title p{
-        font-size: 7px;
+        font-size: 9px;
     }
     .test_watch{
         height: 15px;
         width: 30%;
-        font-size: 6px;
+        font-size: 8px;
     }
     .fa-circle-play{
         font-size: 40px;
@@ -1220,7 +1221,7 @@ p{
   }
   .footer_child_2{
     width: 90%;
-    font-size: 10px;
+    font-size: 11px;
 
   }
   .link{
