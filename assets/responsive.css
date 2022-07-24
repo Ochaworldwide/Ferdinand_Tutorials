@@ -1,0 +1,505 @@
+@media only screen and (max-width:468px) and (min-width:320px) {
+    .top_header{
+        height: 30px;
+    }
+    .big_header{
+        height: 200px;
+    }
+
+    #about_container{
+        height: 750px;
+        justify-content: space-evenly;
+    }
+    #service_big_box{
+        margin-left: 10%;
+        grid-template-columns: auto;
+    }
+
+    .topic h3{
+        font-size: 10px;
+    }
+    .topic {
+        line-height: 15px;
+        font-size: 10px;
+    }
+
+    h2{
+        font-size: 17px;
+    }
+    h1{
+        font-size: 17px;
+    }
+    .overlay p{
+        width: 80%;
+        font-size: 10px;
+        margin-top: 20px;
+    }
+    p{
+        font-size: 9px;
+    }
+    .mission_container{
+        height: 200px;
+        transform: translateY(30px);
+    }
+    .mission{
+        height: 170px;
+        width: 40%;
+    }
+    .fa-bullseye,
+    .fa-lightbulb{
+        font-size: 40px;
+        margin-top: 1%;
+    }
+    
+
+    /* Course Section */
+
+    .news_container{
+        width: 95%;
+        margin: 2.5%;
+        height: 300px;
+
+       
+    }
+    .course_slider{
+        width: 90%;
+        flex-direction: row;
+        align-items: center;
+        position: relative;
+    }
+    .course_slidepart{
+        height: 200px;
+        align-items: center;
+        
+    }
+
+    .dot-container{
+        width: 250px;
+        margin: 0px;
+
+    }
+    #next,#prev,
+    #team_next,#team_prev{
+        height: 50px;
+        width: 6%;
+    }
+    
+    .test_course{
+        height: 150px;
+        width: 39%;
+        
+    }
+    .test_course_details{
+       
+        justify-content: space-between;
+        
+    }
+    .test_course_title{
+        width: 45%;
+    }
+    .test_course_pic{
+        height: 70px;
+        width: 50%;
+        border-radius: 9px;
+    }
+    .test_course_title h4{
+        font-size: 6px;
+    }
+    .test_course_title p{
+        font-size: 7px;
+    }
+    .test_watch{
+        height: 10px;
+        width: 37%;
+        font-size: 5px;
+    }
+    .fa-circle-play{
+        font-size: 35px;
+    }
+   
+    
+   
+  
+  
+
+
+
+    /* Event Section */
+
+  .event_container{
+    height: 600px;
+  }
+    .events{
+        width: 95%;
+    }
+    .event_pic{
+        width: 40%;
+        height:130px ;
+        border-radius: 10px;
+    }
+    .event_details{
+        width: 55%;
+    }
+    .event_details h4{
+        font-size: 10px;
+    }
+
+/* Team Section */
+    .team_container{
+        height:300px;
+        
+        
+    }
+    .team_slider{
+        height: 200px;
+    }
+   .team{
+    height: 170px;
+    
+   }
+   
+    .slidepart{
+        height: 150px;
+        align-items: center;
+        
+    }
+    
+
+
+    .team_mate{
+        width: 28%;
+        height: 120px;
+    }
+    .team_pic{
+        width: 80%;
+        height: 80px;
+    }
+    .team_info h5{
+        height: 5px;
+        font-size: 8px;
+    }
+    .team_info p{
+        font-size: 8px;
+    }
+  
+    .doter-container{
+        width: 250px;
+        margin: 0px;
+       
+    }
+  
+   
+
+
+
+  /* Footer Section */
+  .footer{
+    height: 300px;
+    box-sizing: border-box;
+  }
+  .footer_child{
+    width: 80%;
+  }
+  .footer_child_2{
+    width: 90%;
+    font-size: 10px;
+
+  }
+  .link{
+    margin-top: 40px;
+  }
+
+
+}
+
+
+
+@media only screen and (max-width:640px) and (min-width:468px) {
+    .top_header{
+        height: 30px;
+    }
+    .big_header{
+        height: 250px;
+    }
+    #about_container{
+        height: 750px;
+        justify-content: space-evenly;
+    }
+    #service_big_box{
+        margin-left: 10%;
+        grid-template-columns: auto;
+    }
+    .topic h3{
+        font-size: 10px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+    h1{
+        font-size: 17px;
+    }
+    .overlay p{
+        width: 80%;
+        font-size: 12px;
+    }
+    p{
+        font-size: 12px;
+    }
+    .mission_container{
+        margin-top: 70px;
+        height: 300px;
+    }
+    .mission{
+        height: 250px;
+    }
+    .fa-bullseye{
+        font-size: 60px;
+    }
+    .fa-lightbulb{
+        font-size: 60px;
+    }
+
+    /* Course Section */
+
+   
+    .news_container{
+        width: 95%;
+        margin: 2.5%;
+        height: 300px;
+
+       
+    }
+    .course_slidepart{
+        height: 200px;
+        align-items: center;
+        
+      }
+    .dot-container{
+        width: 250px;
+        margin: 0px;
+
+    }
+    #next,#prev,
+    #team_next,#team_prev{
+        height: 50px;
+        width: 5%;
+    }
+    .test_course{
+        height: 150px;
+        width: 39%;
+        
+    }
+    .test_course_details{
+       
+        justify-content: space-between;
+        
+    }
+    .test_course_title{
+        width: 45%;
+    }
+    .test_course_pic{
+        height: 80px;
+        width: 50%;
+        border-radius: 9px;
+    }
+    .test_course_title h4{
+        font-size: 8px;
+    }
+    .test_course_title p{
+        width: 95%;
+        font-size: 9px;
+    }
+    .test_watch{
+        height: 15px;
+        width: 30%;
+        font-size: 8px;
+    }
+    .fa-circle-play{
+        font-size: 40px;
+    }
+   
+    
+
+
+    /* Event Section */
+
+
+    .events{
+        width: 95%;
+    }
+    .event_pic{
+        width: 40%;
+        border-radius: 10px;
+    }
+    .event_details{
+        width: 55%;
+    }
+
+/* Team Section */
+.team_container{
+    height:350px;
+    
+    
+}
+.team_slider{
+    height: 200px;
+}
+.team{
+height: 170px;
+
+}
+
+.slidepart{
+    height: 170px;
+    align-items: center;
+    
+}
+
+
+
+.team_mate{
+    width: 28%;
+    height: 150px;
+}
+.team_pic{
+    width: 80%;
+    height: 80px;
+}
+.team_info h5{
+    height: 5px;
+    font-size: 8px;
+}
+.team_info p{
+    font-size: 8px;
+}
+
+.doter-container{
+    width: 250px;
+    margin: 0px;
+   
+}
+
+
+  /* Footer Section */
+  .footer{
+    height: 300px;
+    box-sizing: border-box;
+  }
+  .footer_child{
+    width: 60%;
+  }
+  .footer_child_2{
+    width: 90%;
+    font-size: 11px;
+
+  }
+  .link{
+    margin-top: 40px;
+  }
+
+
+}
+
+@media only screen  and (max-width:992px) and (min-width:640px){
+    #about_container{
+        height: 1200px;
+        justify-content: space-evenly;
+    }
+    #service_big_box{
+        margin-left: 10%;
+        grid-template-columns: auto;
+    }
+    .overlay > p{
+        width: 85%;
+        line-height: 30px;
+    }
+    .mission_container{
+        height: 900px;
+        
+        
+    }
+    .mission{
+        height: 400px;
+       
+    }
+    .fa-bullseye{
+        height: 50px;
+        font-size: 70px;
+    }
+    .fa-lightbulb{
+        height: 50px;
+        font-size: 70px;
+    }
+    
+/* Course Section */
+
+
+.news_container{
+    width: 95%;
+    margin: 2.5%;
+    height: 400px;
+
+   
+}
+.course_slider{
+    width: 90%;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+.course_slidepart{
+    height: 200px;
+    /* align-items: center; */
+    
+}
+
+.dot-container{
+    width: 250px;
+    margin: 0px;
+
+}
+#next,#prev,
+#team_next,#team_prev{
+    height: 50px;
+    width: 6%;
+}
+
+.test_course{
+    height: 150px;
+    width: 45%;
+    
+}
+.test_course_details{
+   
+    justify-content: space-between;
+    
+}
+.test_course_title{
+    width: 45%;
+}
+.test_course_pic{
+    height: 80px;
+    width: 50%;
+    border-radius: 9px;
+}
+.test_course_title h4{
+    font-size: 9px;
+}
+.test_course_title p{
+    width: 95%;
+    font-size: 10px;
+}
+.test_watch{
+    height: 25px;
+    width: 37%;
+    font-size: 9px;
+}
+.fa-circle-play{
+    font-size: 35px;
+}
+
+
+
+
+}
