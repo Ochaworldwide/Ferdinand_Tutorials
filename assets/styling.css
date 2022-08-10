@@ -124,7 +124,7 @@ h2{
 }
 #about{
     width: 50%;
-    height: 400px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
