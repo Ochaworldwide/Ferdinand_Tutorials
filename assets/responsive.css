@@ -7,8 +7,8 @@
     }
 
     #about_container{
-        height: 800px;
-        justify-content: space-evenly;
+        height: 850px;
+        justify-content: space-between;
     }
     #service_big_box{
         margin-left: 10%;
@@ -41,11 +41,11 @@
     }
     
     .mission_container{
-        height: 250px;
-        transform: translateY(30px);
+        height: 300px;
+    
     }
     .mission{
-        height: 230px;
+        height: 250px;
         width: 45%;
     }
     .mission p{
