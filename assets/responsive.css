@@ -64,7 +64,7 @@
     .news_container{
         width: 95%;
         margin: 2.5%;
-        height: 300px;
+        height: 350px;
 
        
     }
@@ -75,7 +75,7 @@
         position: relative;
     }
     .course_slidepart{
-        height: 200px;
+        height: 300px;
         align-items: center;
         
     }
