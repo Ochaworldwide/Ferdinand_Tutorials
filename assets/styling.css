@@ -301,6 +301,7 @@ h2{
     box-sizing: border-box;
     text-align: center;
     background-size: cover;
+    
 }
 .mission{
     width: 35%;
@@ -315,8 +316,9 @@ h2{
     padding: 0px 5px 0px 5px;
     background: linear-gradient(109.26deg, rgba(6, 5, 21, 0.8) 1.57%, rgba(144, 144, 146, 0.1) 142.12%);
     opacity: 0.4;
-
+    
 }
+
 
 .fa-bullseye{
     font-size: 150px;

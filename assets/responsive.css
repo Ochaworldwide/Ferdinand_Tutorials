@@ -7,7 +7,7 @@
     }
 
     #about_container{
-        height: 750px;
+        height: 800px;
         justify-content: space-evenly;
     }
     #service_big_box{
@@ -41,12 +41,16 @@
     }
     
     .mission_container{
-        height: 200px;
+        height: 250px;
         transform: translateY(30px);
     }
     .mission{
-        height: 170px;
-        width: 40%;
+        height: 230px;
+        width: 45%;
+    }
+    .mission p{
+        font-size: 10px;
+        line-height: 20px;
     }
     .fa-bullseye,
     .fa-lightbulb{
@@ -88,7 +92,7 @@
     }
     
     .test_course{
-        height: 150px;
+        height: 130px;
         width: 39%;
         
     }
@@ -101,7 +105,7 @@
         width: 45%;
     }
     .test_course_pic{
-        height: 70px;
+        height: 80px;
         width: 50%;
         border-radius: 9px;
     }
@@ -130,14 +134,14 @@
     /* Event Section */
 
   .event_container{
-    height: 1000px;
+    height: 1100px;
   }
     .events{
         width: 95%;
     }
     .event_pic{
         width: 40%;
-        height:130px ;
+        height:300px ;
         border-radius: 10px;
     }
     .event_details{
