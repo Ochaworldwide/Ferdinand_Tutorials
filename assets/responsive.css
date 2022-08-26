@@ -8,7 +8,7 @@
 
     #about_container{
         height: 900px;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
     #service_big_box{
         margin-left: 10%;
@@ -64,7 +64,8 @@
     .news_container{
         width: 95%;
         margin: 2.5%;
-        height: 400px;
+        height: 450px;
+        box-sizing: border-box;
 
        
     }
@@ -489,7 +490,7 @@
 
 @media only screen  and (max-width:992px) and (min-width:640px){
     #about_container{
-        height: 1200px;
+        height: 800px;
         justify-content: space-evenly;
     }
     #service_big_box{
@@ -501,7 +502,7 @@
         line-height: 30px;
     }
     .mission_container{
-        height: 900px;
+        height: 500px;
         
         
     }
@@ -515,7 +516,7 @@
     }
     .fa-lightbulb{
         height: 50px;
-        font-size: 70px;
+        font-size: 60px;
     }
     
 /* Course Section */
@@ -523,9 +524,9 @@
 
 .news_container{
     width: 95%;
-    margin: 2.5%;
+    margin-left: 2.5%;
     height: 400px;
-
+box-sizing: border-box;
    
 }
 .course_slider{
@@ -584,11 +585,103 @@
 .fa-circle-play{
     font-size: 35px;
 }
+.event_container{
+    height: 1400px;
+}
+.events{
+    width: 85%;
+}
+
+
+/* Team Section */
+.team_container{
+    height:400px;
+    
+    
+}
+.team_slider{
+    height: 250px;
+}
+.team{
+height: 220px;
+
+}
+
+.slidepart{
+    height: 220px;
+    align-items: center;
+    
+}
 
 
 
+.team_mate{
+    width: 28%;
+    height: 200px;
+}
+.team_pic{
+    width: 80%;
+    height: 120px;
+}
+.team_info h5{
+    height: 5px;
+    font-size: 10px;
+}
+.team_info p{
+    font-size: 10px;
+}
+
+.doter-container{
+    width: 250px;
+    margin: 0px;
+
+}
 
 
+/* footer */
+.footer{
+    position: relative;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    box-sizing: border-box;
+
+   }
+   #foot1{
+    width: 70%;
+    height: 200px;
+    
+   }
+   .foot{
+    width: 100%;
+    height: 200px;
+    padding-left: 5%;
+   }
+   .foot_logo{
+    width: 80%;
+   }
+   .foot p{
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.7em;
+   }
+   
+   .foot a li{
+        width: 100%;
+        font-size: 15px;
+   }
+   #link_first{
+    font-size: 16px;
+    
+
+   }
+   .copy{
+    margin: 0px;
+    transform: translate(0px,370px);
+    font-size: 10px;
+    position: absolute;
+
+   }
 
 
 

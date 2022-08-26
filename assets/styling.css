@@ -293,7 +293,7 @@ h2{
 
 .mission_container{
     width: 100%;
-    height: 350px;
+    height: 450px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -305,7 +305,7 @@ h2{
 }
 .mission{
     width: 35%;
-    height: 300px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -321,12 +321,12 @@ h2{
 
 
 .fa-bullseye{
-    font-size: 150px;
+    font-size: 120px;
     
 }
 
 .fa-lightbulb{
-    font-size: 150px;
+    font-size: 120px;
     
 }
 
@@ -336,7 +336,7 @@ h2{
 
 
     .news_container{
-        width: 90%;
+        width: 95%;
         height: 500px;
         display: flex;
         flex-direction: column;
@@ -345,7 +345,7 @@ h2{
         background-color: #0B1138;
         border-radius: 10px;
         box-sizing: border-box;
-        margin-left: 5%;
+        margin-left: 2.5%;
         position: relative;
         margin-top: 2%;
         
@@ -367,7 +367,7 @@ h2{
     
     #prev,#next{
         height: 40px;
-        width: 40px;
+        width: 30px;
         position: absolute;
         background-color: #076bb8;
         color: #ffffff;
@@ -440,29 +440,36 @@ h2{
         border-radius: 10px;
         box-sizing: border-box;
         display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
+        flex-direction: row;
+        justify-content: center;
         align-items: center;
         background-color: #ffff;
+        position: relative;
         
         
     }
-    .test_course_details{
+    /* .test_course_details{
         width: 95%;
         height: auto;
         display: flex;
         flex-direction: row;
         justify-content: center;
         
-    }
+    } */
     
-    .test_course_pic{
+    /* .test_course_pic{
         width: 40%;
         height: 150px;
         background-image: url("./images/fedinand/ani2.jpeg");
         background-size: cover;
         background-position: center;
         border-radius: 5px;
+    } */
+    iframe{
+        width: 45%;
+        height: 70%;
+        border-radius: 5px;
+        
     }
     .test_course_title{
         width: 50%;
@@ -471,7 +478,7 @@ h2{
         flex-direction: column;
         align-items: center;
     }
-    .test_watch{
+    /* .test_watch{
         width: 30%;
         height: 30px;
         display: flex;
@@ -488,8 +495,8 @@ h2{
         color: #fff;
         background-color: #44c1ca;
         transition: 1s;
-    }
-    .test_play{
+    } */
+    /* .test_play{
         width: 100%;
         height: 100%;
         font-size: 400%;
@@ -500,15 +507,16 @@ h2{
         background-color: #00000061;
         text-decoration: none;
         border-radius: 10px;
-    }
-    .playing{
+    } */
+    
+    /* .playing{
         width: 90%;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         font-size: 20px;
        
-    }
+    } */
 
 
 /* Team Section */
