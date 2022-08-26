@@ -74,3 +74,5 @@ function dot(index){
     indicate(index);
 }
 
+
+

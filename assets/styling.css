@@ -337,7 +337,7 @@ h2{
 
     .news_container{
         width: 95%;
-        height: 500px;
+        height: 600px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -390,7 +390,7 @@ h2{
     
     .dot-container{
         width: 250px;
-        margin: 20px auto 0 auto;
+        margin: 25px auto 0 auto;
         display: flex;
         align-items: center;
         justify-content: space-around;
@@ -420,7 +420,7 @@ h2{
     
     .course_slidepart{
         width: 100%;
-        height: 300px;
+        height: 340px;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -435,44 +435,28 @@ h2{
         color: #1D1D1F;
     }
     .test_course{
-        width: 45%;
-        height: auto;
+        width: 40%;
+        height: 340px;
         border-radius: 10px;
         box-sizing: border-box;
         display: flex;
-        flex-direction: row;
-        justify-content: center;
+        flex-direction: column;
+        justify-content: space-evenly;
         align-items: center;
         background-color: #ffff;
-        position: relative;
+        
         
         
     }
-    /* .test_course_details{
-        width: 95%;
-        height: auto;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        
-    } */
-    
-    /* .test_course_pic{
-        width: 40%;
-        height: 150px;
-        background-image: url("./images/fedinand/ani2.jpeg");
-        background-size: cover;
-        background-position: center;
-        border-radius: 5px;
-    } */
+   
     iframe{
-        width: 45%;
-        height: 70%;
-        border-radius: 5px;
+        width: 100%;
+        height: 250px;
+        
         
     }
     .test_course_title{
-        width: 50%;
+        width: 100%;
         height: auto;
         display: flex;
         flex-direction: column;
@@ -517,6 +501,10 @@ h2{
         font-size: 20px;
        
     } */
+
+
+
+
 
 
 /* Team Section */
