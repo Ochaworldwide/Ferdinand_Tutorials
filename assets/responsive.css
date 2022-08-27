@@ -88,18 +88,18 @@
     }
     #next,#prev,
     #team_next,#team_prev{
-        height: 50px;
+        height: 40px;
         width: 6%;
     }
     
     .test_course{
-        height: 150px;
-        width: 40%;
+        height: 300px;
+        
         
     }
     iframe{
         width: 100%;
-        height: 70px;
+        height: 200px;
         border-radius: 5px;
         
     }
@@ -108,10 +108,10 @@
     }
     
     .test_course_title h4{
-        font-size: 6px;
+        font-size: 10px;
     }
     .test_course_title p{
-        font-size: 7px;
+        font-size: 11px;
     }
    
     
@@ -298,12 +298,12 @@
     .news_container{
         width: 95%;
         margin-left: 2.5%;
-        height: 300px;
+        height: 400px;
 
        
     }
     .course_slidepart{
-        height: 200px;
+        height: 250px;
         align-items: center;
         
       }
@@ -315,16 +315,16 @@
     #next,#prev,
     #team_next,#team_prev{
         height: 50px;
-        width: 5%;
+        width: 10%;
     }
     .test_course{
-        height: 150px;
-        width: 40%;
+        height: 250px;
+        /* width: 40%; */
         
     }
     iframe{
         width: 100%;
-        height: 70px;
+        height: 200px;
         border-radius: 5px;
         
     }
@@ -333,11 +333,12 @@
     }
     
     .test_course_title h4{
-        font-size: 8px;
+        font-size: 12px;
     }
     .test_course_title p{
         width: 95%;
-        font-size: 8px;
+        font-size: 12px;
+        margin: 0px;
     }
     
     
@@ -503,7 +504,7 @@
 .news_container{
     width: 95%;
     margin-left: 2.5%;
-    height: 400px;
+    /* height: 500px; */
     box-sizing: border-box;
    
 }
@@ -514,7 +515,7 @@
     position: relative;
 }
 .course_slidepart{
-    height: 200px;
+    height: 350px;
     /* align-items: center; */
     
 }
@@ -531,14 +532,16 @@
 }
 
 .test_course{
-    height: 150px;
-    width: 45%;
+    height: 350px;
+    /* width: 45%; */
     
 }
 iframe{
     width: 100%;
-    height: 70px;
-    border-radius: 5px;
+    height: 300px;
+    
+    
+    
     
 }
 .test_course_title{
@@ -553,14 +556,7 @@ iframe{
     width: 95%;
     font-size: 10px;
 }
-.test_watch{
-    height: 25px;
-    width: 37%;
-    font-size: 9px;
-}
-.fa-circle-play{
-    font-size: 35px;
-}
+
 .event_container{
     height: 1400px;
 }
