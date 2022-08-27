@@ -82,9 +82,16 @@
     }
 
     .dot-container{
-        width: 250px;
+        width: 200px;
         margin: 0px;
 
+    }
+    .dot-container button{
+        height: 12px;
+        width: 0px;
+        border-radius: 50%;
+        border: 1px solid #076bb8;
+        
     }
     #next,#prev,
     #team_next,#team_prev{
@@ -312,6 +319,13 @@
         margin: 0px;
 
     }
+    .dot-container button{
+        height: 12px;
+        width: 0px;
+        border-radius: 50%;
+        border: 1px solid #076bb8;
+        
+    }
     #next,#prev,
     #team_next,#team_prev{
         height: 50px;
@@ -525,6 +539,13 @@
     margin: 0px;
 
 }
+.dot-container button{
+    height: 12px;
+    width: 0px;
+    border-radius: 50%;
+    border: 1px solid #076bb8;
+    
+}
 #next,#prev,
 #team_next,#team_prev{
     height: 50px;
@@ -550,11 +571,11 @@ iframe{
 
 
 .test_course_title h4{
-    font-size: 9px;
+    font-size: 12px;
 }
 .test_course_title p{
     width: 95%;
-    font-size: 10px;
+    font-size: 13px;
 }
 
 .event_container{
