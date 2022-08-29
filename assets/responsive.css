@@ -95,10 +95,18 @@
     }
     #next,#prev,
     #team_next,#team_prev{
-        height: 40px;
-        width: 6%;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
     }
     
+    #prev{
+        left: 1px;
+    }
+    
+    #next{
+        right: 1px;
+    }
     .test_course{
         height: 300px;
         
@@ -348,7 +356,8 @@
     #next,#prev,
     #team_next,#team_prev{
         height: 50px;
-        width: 10%;
+        width: 50px;
+        
     }
     .test_course{
         height: 250px;
