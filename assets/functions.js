@@ -74,6 +74,18 @@ function dot(index){
     indicate(index);
 }
 
-
-
-
+function handleTelegram(){
+    var telegram_link=document.getElementById("tele_link")
+    
+    var telegram_icon=document.getElementById("tele_icon")
+    if(telegram_link.style.visibility=="hidden"){
+        telegram_icon.style.transform="rotate(180deg)"
+        telegram_icon.style.transitionDuration="1s"
+        telegram_link.style.visibility="visible"
+    }
+    else{
+        telegram_icon.style.transitionDuration="1s"
+        telegram_icon.style.transform="rotate(0deg)"
+        telegram_link.style.visibility="hidden"
+    }
+}

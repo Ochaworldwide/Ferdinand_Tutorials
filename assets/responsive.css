@@ -138,25 +138,31 @@
 
     /* Event Section */
 
-  .event_container{
-    height: 1100px;
-  }
+    .event_container{
+        height: 1500px;
+    }
     .events{
         width: 95%;
+        height: 450px;
+        flex-direction: column;
+        align-items: center;
+        
     }
     .event_pic{
-        width: 40%;
-        height:300px ;
+        width: 100%;
+        height:200px ;
         border-radius: 10px;
     }
     .event_details{
-        width: 55%;
+        text-align: center;
+        width: 90%;
     }
     .event_details p{
         font-size: 10px;
         line-height: 20px;
     }
     .event_details h4{
+
         font-size: 10px;
     }
 
@@ -225,6 +231,21 @@
     padding-left: 5%;
     box-sizing: border-box;
 
+   }
+   #tele_container{
+    width: 70%;
+    
+   }
+   .telegram{
+    width: 37px;
+    height: 35px;
+   }
+   .fa-telegram{
+    font-size: 35px;
+   }
+   #tele_link{
+    height: 35px;
+    font-size: 10px;
    }
    #foot1{
     width: 70%;
@@ -472,6 +493,21 @@
     box-sizing: border-box;
 
    }
+   #tele_container{
+    width: 50%;
+    
+   }
+   .telegram{
+    width: 37px;
+    height: 35px;
+   }
+   .fa-telegram{
+    font-size: 35px;
+   }
+   #tele_link{
+    height: 35px;
+    font-size: 10px;
+   }
    #foot1{
     width: 70%;
     height: 200px;
@@ -692,6 +728,21 @@ height: 220px;
     grid-template-columns: 50% 50% ;
     box-sizing: border-box;
 
+   }
+   #tele_container{
+    width: 70%;
+    
+   }
+   .telegram{
+    width: 37px;
+    height: 40px;
+   }
+   .fa-telegram{
+    font-size: 40px;
+   }
+   #tele_link{
+    height: 40px;
+    font-size: 10px;
    }
    #foot1{
     width: 70%;
